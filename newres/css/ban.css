@@ -1,0 +1,77 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color:grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover
+ {
+    color:black;
+    font-size:15px;
+}
+
+
+}
+.wrap
+{
+  height:100;
+  width:200;
+  margin-left:10px;
+  margin-top: 80px;
+}
+.p
+{
+  margin-top:20px;
+  margin-bottom:20px;
+  height:200;
+  width:300;
+  opacity: 0.5;
+      filter: alpha(opacity=50);
+
+}
+.p:hover
+{
+
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+h2
+{
+  margin-top: 30px;
+}
+.lp
+{
+  margin-top: 30px;
+
+}
+.hello
+{
+      background: rgba(42,140,232,1);
+}
+.j
+{
+  height:20px;
+  width:20px;
+}
+.wrap
+{
+  margin-bottom: 190px;
+}
