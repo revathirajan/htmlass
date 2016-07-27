@@ -1,0 +1,162 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   li a {
+   margin-top:20px;
+   margin-left:20px;
+}
+
+#searchinput
+{
+  width:200px;
+  margin-top:20px;
+}
+#searchbtn
+{
+  margin-top:20px;
+}
+.navbar-brand
+{
+  padding:10px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #mycarousel
+   {
+     margin-top: 80px;
+   }
+#mycarousel .item
+{
+  height:300px;
+}
+#slide1
+{
+  background:url('../../images/front_medium.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_medium.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_medium.jpg')top center no-repeat;
+}
+#slide4
+{
+  background:url('../../images/frt_medium.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_medium.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_medium.jpg')top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item
+  {
+    height:250px;
+  }
+  #slide1
+  {
+    background:url('../../images/front_small.jpg')top center no-repeat;
+  }
+  #slide2
+  {
+    background:url('../../images/fro_small.jpg')top center no-repeat;
+  }
+  #slide3
+  {
+    background:url('../../images/fr_small.jpg')top center no-repeat;
+  }
+  #slide4
+  {
+    background:url('../../images/frt_small.jpg')top center no-repeat;
+  }
+  #slide5
+  {
+    background:url('../../images/ft_small.jpg')top center no-repeat;
+  }
+  #slide6
+  {
+    background:url('../../images/f_small.jpg')top center no-repeat;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#mycarousel .item
+{
+  height:420px;
+}
+#slide1
+{
+  background:url('../../images/front_large.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_large.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_large.jpg')top center no-repeat;
+}
+#slide4
+{
+  background:url('../../images/frt_large.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_large.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_large.jpg')top center no-repeat;
+}
+
+}
